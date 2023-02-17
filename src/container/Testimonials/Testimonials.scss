@@ -1,0 +1,38 @@
+.testimonials{
+    background-color: #9a6afd;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    width: 100%;
+    min-height: 450px;
+    flex-direction: column;
+    padding: 4rem 6rem;
+    p{
+        font-size: 1.2rem;
+        color: white;
+        font-weight: 600;
+        
+    }
+
+    img{
+        width: 180px;
+    }
+
+    .owner-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        h3{
+            font-size: 1.3rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+        img{
+            border-radius: 50%;
+
+        }
+    }
+}

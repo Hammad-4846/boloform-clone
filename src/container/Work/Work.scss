@@ -1,0 +1,39 @@
+.app__work-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 4rem;
+
+  .app__work-img {
+    img {
+      width: 400px;
+      
+      @media screen and (max-width : 400px) {
+          width: 300px;
+    }
+    }
+  }
+
+  .app__work-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .app__work-content {
+    flex-direction: column;
+    h4 {
+      font-size: 1.4rem;
+      font-weight: bold;
+    }
+    p {
+    }
+  }
+
+  @media screen and (max-width : 1270px) {
+    grid-template-columns: repeat(2,1fr);
+  }
+  @media screen and (max-width : 900px) {
+    grid-template-columns: repeat(1,1fr);
+  }
+  
+}

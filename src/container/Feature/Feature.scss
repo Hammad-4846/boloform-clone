@@ -1,0 +1,25 @@
+.app__feature {
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+  height: 100%;
+}
+
+.app__feature-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  .app__feature-card {
+    background-color: var(--white-color);
+    width: 350px;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+
+  @media screen and (max-width: 1270px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media screen and (max-width: 900px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

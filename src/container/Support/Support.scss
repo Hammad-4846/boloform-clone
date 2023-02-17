@@ -1,0 +1,42 @@
+.app__support {
+  flex-direction: column;
+  height: 100%;
+
+  .app__support-heading {
+    flex-direction: column;
+    img {
+      width: 150px;
+    }
+    h2{
+        font-weight: 900;
+    }
+    p{
+        margin-bottom: 4rem;
+    }
+  }
+
+  .app__support-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .app__support-card{
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    transition: var(--transition);
+
+    &:hover{
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    }
+  }
+  .card-img{
+    img{
+        width: 230px;
+        border-radius: 10px;
+    }
+    margin: 1.5rem 0;
+  }
+}

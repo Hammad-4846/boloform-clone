@@ -1,0 +1,60 @@
+.app__message {
+  gap: 2rem;
+  width: 80%;
+  margin: 6rem auto;
+  background-color: var(--white-color);
+  border-radius: 1rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 2rem;
+  transition: var(--transition);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+
+  .app__review-img{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    img{
+      width: 130px;
+      height: 130px;
+    }
+  }
+
+  .app__message-img {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    img {
+      width: 120px;
+      height: 110px;
+      border-radius: 50%;
+    }
+  }
+
+  .app__message-info {
+    flex: 1;
+    img {
+      width: 120px;
+    }
+    .message-desc {
+      margin: 1rem 0;
+
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    .message-desc{
+      display: flex;
+      flex-wrap: wrap;
+      p{
+        white-space: pre-wrap;
+      }
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}

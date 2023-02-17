@@ -1,0 +1,12 @@
+.app__FrequentlyQuestion {
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  flex-direction: column;
+  h2{
+    margin-bottom: 3rem;
+  }
+  .app__FrequentlyQuestion-card {
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+}
